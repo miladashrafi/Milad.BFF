@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34112.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Milad.IdentityServer", "src\Milad.IdentityServer\Milad.IdentityServer.csproj", "{E59BCBCA-784C-40B6-B6E6-F2649F0418ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Milad.BFF", "src\Milad.BFF\Milad.BFF.csproj", "{CF77F477-A6AB-4CD1-B200-5BA221326524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Milad.API", "src\Milad.API\Milad.API.csproj", "{1FB6995D-0C22-4E08-8CDA-0ABE076211D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Milad.Blazor", "src\Milad.Blazor\Milad.Blazor.csproj", "{4376998D-7806-46E2-96D3-A2D4E439D2DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E59BCBCA-784C-40B6-B6E6-F2649F0418ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59BCBCA-784C-40B6-B6E6-F2649F0418ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59BCBCA-784C-40B6-B6E6-F2649F0418ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59BCBCA-784C-40B6-B6E6-F2649F0418ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF77F477-A6AB-4CD1-B200-5BA221326524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF77F477-A6AB-4CD1-B200-5BA221326524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF77F477-A6AB-4CD1-B200-5BA221326524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF77F477-A6AB-4CD1-B200-5BA221326524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB6995D-0C22-4E08-8CDA-0ABE076211D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB6995D-0C22-4E08-8CDA-0ABE076211D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB6995D-0C22-4E08-8CDA-0ABE076211D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB6995D-0C22-4E08-8CDA-0ABE076211D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4376998D-7806-46E2-96D3-A2D4E439D2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4376998D-7806-46E2-96D3-A2D4E439D2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4376998D-7806-46E2-96D3-A2D4E439D2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4376998D-7806-46E2-96D3-A2D4E439D2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48D1944D-B1E5-41A7-B923-765EB91A720D}
+	EndGlobalSection
+EndGlobal

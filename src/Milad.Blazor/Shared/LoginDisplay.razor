@@ -1,0 +1,9 @@
+<AuthorizeView>
+    <Authorized>
+        <strong>Hello, @context.User.Identity.Name!</strong>
+        <a href="@context.User.FindFirst("bff:logout_url")?.Value">Log out</a>
+    </Authorized>
+    <NotAuthorized>
+        <a href="https://localhost:5002/bff/login?returnUrl=https://localhost:5004">Log in</a>
+    </NotAuthorized>
+</AuthorizeView>

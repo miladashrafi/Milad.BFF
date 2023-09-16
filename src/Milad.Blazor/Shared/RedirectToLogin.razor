@@ -1,0 +1,9 @@
+@inject NavigationManager Navigation
+
+@code {
+    protected override void OnInitialized()
+    {
+        var returnUrl = Navigation.ToAbsoluteUri(Navigation.Uri);
+        Navigation.NavigateTo($"https://localhost:5002/bff/login?returnUrl={returnUrl}", forceLoad: true);
+    }
+}
